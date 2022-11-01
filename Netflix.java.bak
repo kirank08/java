@@ -1,0 +1,30 @@
+class Mainclass
+{
+  static void search(String moviename)
+  {
+  System.out.println("movie is KGF2");
+  }
+  static void search(int ratings)
+{
+  System.out.println("ratings of the movie");
+  }
+  static void search(String moviename,int ratings)
+	{
+  System.out.println("movie is KGF2 and ratings");
+  }
+  static void search(int ratings,String moviename)
+  {
+  System.out.println("movie ratings and movie is");
+  }
+}
+
+class Netflix
+{
+public static void main(String [] args)
+{
+Mainclass.search("googly");
+Mainclass.search(5);
+Mainclass.search("googly",5);
+Mainclass.search(5,"googly");
+}
+}

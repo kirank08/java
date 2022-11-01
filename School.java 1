@@ -1,0 +1,14 @@
+class school
+{
+   public static void main(String []args)
+   {
+   string name="Qspiders";
+   string grade="A";
+   string strength="555";
+
+
+   System.out.println("school name is"+ name);
+   System.out.println("school gradde is"+ grade);
+   System.oit.println("school strength is+ strength);
+   }
+}

@@ -1,0 +1,55 @@
+package assain;
+
+public class mainclass 
+{
+
+	public static void main(String[] args)
+	{
+		class Farmer
+		{
+			void grow()
+			{
+				System.out.println("Farmer")
+			}
+		}
+     class ragi extends Farmer
+     {
+    	 void grow()
+    	 {
+    	 System.out.println("ragi Farming");									
+    	 }
+     }
+	class maize extends ragi
+	{
+		void grow()
+	}
+	System.out.println("maize Farming");
+	}
+  }
+    class rice extends rice
+    {
+    	void grow()
+    }
+    System.out.println("rice Farming");
+    }
+    }
+    class main
+    {
+    	Static void kiran("Farmer a")
+    	{
+    		a.grow();
+    	}
+    }
+    class mainclass2
+    {
+    	public static void main(String [] args)
+    	{
+    		ragi R=new ragi();
+    		maize M=new maize();
+    		rice R=new rice();
+    		main.kiran(R);
+    		main.kiran(M);
+    		main.kiran(R);
+    	}
+    	}
+    
